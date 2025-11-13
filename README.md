@@ -62,23 +62,3 @@ A lógica de funcionamento está descrita no `projetos.html`:
         *   Aguarda 3 segundos (`delay(3000)`).
         *   O servo retorna para 0 graus (fecha).
         *   Mensagens de status são enviadas via Serial.
-
-**Nota:** O código do Arduino (ficheiro `.ino`) não está presente neste ZIP, mas a lógica de programação está detalhada no ficheiro `projetos.html`.
-
-## Como Visualizar o Website de Apresentação
-
-1.  Clone o repositório para o seu ambiente local.
-2.  Abra o ficheiro `index.html` ou `projetos.html` diretamente no seu navegador.
-3.  Navegue entre as páginas através do menu no cabeçalho.
-
-## Melhorias Sugeridas
-
-As seguintes melhorias foram identificadas no projeto:
-
-*   **Separação de CSS:** Para melhor manutenção e desempenho, é altamente recomendável mover todo o CSS incorporado para o ficheiro externo `css/style.css`.
-*   **Consistência de Contactos:** As páginas `contacto.html` e `contactos2.html` (equipa) poderiam ser consolidadas numa única página para simplificar a navegação.
-*   **Adicionar o Código Arduino:** Incluir o ficheiro `.ino` com o código da cancela.
-*   **Consistência do Website:** Corrigir os títulos das páginas HTML (atualmente "Document") e garantir que a página `index.html` (Início) está correta.
-
----
-*Este README foi gerado automaticamente com base no conteúdo dos ficheiros.*
